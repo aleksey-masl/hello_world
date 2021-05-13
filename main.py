@@ -7,7 +7,7 @@ if age <= 30 and weight > 60 and weight < 120:
     print(name,',', age,'лет',',','вес', weight,'- Вы здоров')
 
 elif age > 30 and (weight < 50 or weight > 120):
-    print({},',', {},'лет',',','вес', {}, '- Вам нужно заняться собой'.format(name, age, weight))
+    print('{}',',', '{}','лет',',','вес', '{}', '- Вам нужно заняться собой'.format(name, age, weight))
 
 elif age > 40 and (weight < 50 or weight > 120):
     print(name,',', age,'лет',',','вес', weight,'- Вам требуется врачебный осмотр')
