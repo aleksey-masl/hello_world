@@ -1,3 +1,5 @@
+# множества
+
 cities = ['Las Vegas', 'Paris', 'Moscow', 'Paris', 'Moscow']
 print(cities)
 print(type(cities))
