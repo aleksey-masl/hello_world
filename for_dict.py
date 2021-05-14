@@ -18,7 +18,7 @@ print('#######################################')
 for val in friend.values():
     print(val)
 
-# пары ключ-значение как кортежы
+# пары ключ-значение в виде кортежей
 for item in friend.items():
     print(item)
 
@@ -26,6 +26,7 @@ for item in friend.items():
 for key, val in friend.items():
     print(key)
     print(val)
+
 
 
 
