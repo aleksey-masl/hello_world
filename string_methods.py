@@ -6,7 +6,7 @@ print(len(friends))
 print(friends.find('Вла'))
 
 print(friends.find('123Вла'))
-
+# split делит составляющие в переменной на несколько через разделитель запятая
 print(friends.split())
 
 friends = 'Сергей;Владимир1'
