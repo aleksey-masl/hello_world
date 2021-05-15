@@ -1,5 +1,6 @@
 cities = {'Las Vegas', 'Paris', 'Moscow'}
 print(cities)
+print('\n')
 
 cities.add('Burma')
 print(cities)
