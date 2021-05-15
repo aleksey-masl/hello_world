@@ -7,3 +7,5 @@ print(friend[:4])
 print(friend[3:])
 # тип среза
 print(type(friend[1:4]))
+# копия строки
+print(friend[:])
