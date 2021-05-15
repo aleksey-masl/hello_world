@@ -9,3 +9,6 @@ print(hello_str)
 
 hello_str = 'Привет {} тебе {} лет'.format(name, age)
 print(hello_str)
+
+print('Форматированная строка')
+print(f'Привет {name} тебе {age} лет')
