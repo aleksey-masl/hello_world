@@ -1,0 +1,22 @@
+cities = ['Moscow', 'New-York', 'Simferopol', 'Toronto']
+print(cities)
+print(cities[0])
+print(cities[-1])
+cities[2] = 'Tula'
+print(cities)
+cities.append('Kursk')
+print(cities)
+cities.insert(3, 'Yalta')
+print(cities)
+del cities[-1]
+print(cities)
+cities.remove('Tula')
+print(cities)
+cities.pop()
+print(cities)
+cities.append ('Astrahan')
+print(cities)
+cities.sort()
+print(cities)
+cities.reverse()
+print(cities)
