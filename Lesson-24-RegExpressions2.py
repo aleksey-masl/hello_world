@@ -1,11 +1,11 @@
 import re
-input_file = '../dumpfile.txt'
-result_file = '../results.txt'
+input_file = 'dumpfile.txt'
+result_file = 'results.txt'
 
 inputfile = open(input_file, 'r')
 resultfile = open(result_file, 'w')
 
-lookfor = r''
+lookfor = r'[\w.-]+@[\w.]+\.[\w.]+'
 mytext = inputfile.read()
 
 results = re.findall(lookfor, mytext)
