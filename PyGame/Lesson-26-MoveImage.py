@@ -27,6 +27,10 @@ while game_over == True:
     for event in pygame.event.get():
         if event.type == pygame.MOUSEBUTTONDOWN:
             x, y = event.pos
+            if x > MAX_X - logo_size:
+                x = MAX_X - logo_size
+            if y > MAX_Y - logo_size:
+                y = MAX_Y - logo_size
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
                 game_over = False
@@ -64,10 +68,6 @@ while game_over == True:
         y += 1
         if y > MAX_Y - logo_size:
             y = MAX_Y - logo_size
-
-
-
-
 
 
     screen.fill(bg_color)
