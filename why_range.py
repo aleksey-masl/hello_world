@@ -10,7 +10,7 @@ for i in winners:
 # используем range
 for i in range(len(winners)):
     #print(i)
-    print(i+1, ')',winners[i])
+    print(i+1, ')', winners[i])
 
 for i in range(1, len(winners)+1):
     #print(i)
